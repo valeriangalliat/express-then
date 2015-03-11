@@ -1,0 +1,30 @@
+{
+  "name": "express-then",
+  "version": "1.0.0",
+  "description": "Express handlers with promise support.",
+  "homepage": "https://github.com/valeriangalliat/express-then",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "UNLICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/express-then"
+  },
+  "devDependencies": {
+    "babel": "^4.4.5"
+  },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "prepublish": "$npm_package_scripts_build"
+  }
+}
