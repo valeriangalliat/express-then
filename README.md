@@ -15,5 +15,5 @@ app.get('/', then(async (req, res) => {
   await bar()
 
   res.end()
-})
+}))
 ```
