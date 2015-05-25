@@ -1,6 +1,6 @@
 {
   "name": "express-then",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express handlers with promise support.",
   "homepage": "https://github.com/valeriangalliat/express-then",
   "license": "Unlicense",
