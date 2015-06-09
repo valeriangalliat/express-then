@@ -17,11 +17,11 @@
     "type": "git",
     "url": "https://github.com/valeriangalliat/express-then.git"
   },
-  "devDependencies": {
-    "babel": "^4.4.5"
-  },
   "scripts": {
     "build": "babel index.es6.js -o index.js",
     "prepublish": "$npm_package_scripts_build"
+  },
+  "devDependencies": {
+    "babel": "^4.4.5"
   }
 }
